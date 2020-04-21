@@ -54,6 +54,7 @@ namespace CData
             try
             {                
                 //cambio de pruebas
+                //otro cambio
                 System.Data.EntityClient.EntityConnectionStringBuilder e = new System.Data.EntityClient.EntityConnectionStringBuilder(s);
                 string ProviderConnectionString = e.ProviderConnectionString;
                 string ConnectionString = ConfigurationManager.ConnectionStrings["Clientes_AREntities"].ConnectionString;
